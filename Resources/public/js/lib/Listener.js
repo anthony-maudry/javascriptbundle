@@ -13,7 +13,7 @@ var listener = new function ActionListener() {
     document.querySelector('body').addEventListener('click', function (e) {
         var target = e.target;
         do {
-            var action = target.dataset.action;
+            var action = target.dataset ? target.dataset.action : null;
             if (action && registered[action]) {
                 registered[action].apply(target, [e]);
             }
