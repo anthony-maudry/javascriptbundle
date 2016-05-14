@@ -1,0 +1,28 @@
+{
+    "name": "thuata/javascriptbundle",
+    "license": "MIT",
+    "type": "symfony-bundle",
+    "description": "Javascript tools",
+    "authors": [
+        {
+            "name": "Anthony Maudry",
+            "email": "anthony.maudry@thuata.com",
+            "homepage": "http://www.thuata.com/"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "Thuata\\FrameworkBundle\\": "" }
+    },
+    "require": {
+        "php": ">=5.5",
+        "symfony/symfony": "~3"
+    },
+    "require-dev": {
+        "sensio/generator-bundle": "~2.3"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "master"
+        }
+    }
+}
