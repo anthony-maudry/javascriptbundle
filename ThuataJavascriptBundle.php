@@ -1,6 +1,6 @@
 <?php
 
-namespace Thuata\JavasriptBundle;
+namespace Thuata\JavascriptBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
