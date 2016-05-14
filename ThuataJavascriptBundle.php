@@ -11,6 +11,6 @@ use Symfony\Component\HttpKernel\Bundle\Bundle;
  *
  * @author Anthony Maudry <anthony.maudry@thuata.com>
  */
-class ThuataJavasriptBundle extends Bundle
+class ThuataJavascriptBundle extends Bundle
 {
 }
